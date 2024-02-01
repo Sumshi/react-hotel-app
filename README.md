@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `for icons i used material icons` here is the website: [https://mui.com/material-ui/material-icons/]
+
+Then u can just import the icons , first intall this two before importing
+
+```
+for default installation: npm install @mui/material @emotion/react @emotion/styled
+for icons: npm install @mui/icons-material
+```
