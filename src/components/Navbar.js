@@ -30,7 +30,7 @@ function Navbar() {
         <button>
           <MenuIcon />
         </button>
-      </div>
+      </div> 
     </div>
   )
 }
