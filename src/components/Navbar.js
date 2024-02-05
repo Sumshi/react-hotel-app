@@ -1,8 +1,8 @@
 // This page will contain the logo and nav elements and maybe the footer
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Logo from '../assets/pizzaLogo.png';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import '../styles/Navbar.css';
 
@@ -10,7 +10,13 @@ import '../styles/Navbar.css';
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false)
 
+  const location = useLocation();
+  useEffect(() => {
+    setOpenLinks(false);
+  }, [location]);
+  // function to toggle the menu icon
 
+  
   const toggleNavbar = () => {
     setOpenLinks(!openLinks);
   }
